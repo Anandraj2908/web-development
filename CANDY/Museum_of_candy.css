@@ -1,0 +1,14 @@
+
+body{
+    background-color: #ffc8dd;
+    font-family: "Montserrat" , sans-serif;
+}
+.nabtn:hover{
+    color: red;
+}
+h1{
+    color: white;
+}
+span{
+    color: red;
+}

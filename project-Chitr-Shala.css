@@ -1,0 +1,56 @@
+body{
+    background-color: #151b29;
+    
+    
+}
+h1{
+    margin-left: 50px;
+    color: turquoise;
+    
+}
+hr{
+    width: 1400px;
+    height: -0.50em;
+    border-color: turquoise;
+    
+}
+div{
+    background-color: #151b29;
+    position: -webkit-sticky;
+position: sticky;
+top:0.001px
+
+}
+#img{
+   
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+} 
+
+img{
+    border-color: turquoise;
+    border-style: solid;
+    width: 400px;
+    height: 400px;
+    flex-shrink: 0;
+    border-radius: 50%;
+    flex-basis: 400px;
+  
+    
+   
+    margin: 20px 20px 20px 20px;
+    transition: all 0.5s;
+    
+}
+img:hover
+{
+    border-radius: 0%;
+    
+    
+    border-width: 0px 0px 0px 4px;
+    border-left-style :solid;
+    border-left-color: turquoise;
+    
+    
+}

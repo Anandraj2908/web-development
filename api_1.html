@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <title>Cryptonator</title>
+</head>
+<body>
+    <h1>Bitcoin Value <h4><sub>price changes per minute</sub></h4></h1>
+    <section>
+        <div id="base">
+            <span >Name:</span><span id="coinName" value=""></span>
+        </div>
+        <div id="target">
+            <span>Value in: </span><span id="currencyName" value=""></span>
+        </div>
+        <div id="priceD">
+            <h1>PRICE:)</h1><h1 id="prices"></h1>
+        </div>
+        <div id="volumeD">
+            <span>Total 24hrs volume:</span><span id="volumes" value=""></span>
+        </div>
+        <div id="changeD">
+            <span>Change:</span><span id="changes" value=""></span>
+        </div>
+        
+    </section>
+    <script src="api_1.js"></script>
+</body>
+</html>

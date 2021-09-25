@@ -1,0 +1,47 @@
+header>img{
+    width: 200px;
+    margin:20px 20px 20px 20px;
+}
+header{
+    background-image: url("https://i.ibb.co/vP8nBjH/headerpic.png");
+    
+}
+#header{
+    float: right;
+    
+}
+#formhead{
+    color: #b100e8;
+}
+
+#searchbutton
+{
+    margin-left: 0px;
+    color:#b100e8;
+}
+#fs
+{
+    margin-right: 0px;
+}
+#formmain
+{
+    margin-left: 200px;
+    
+}
+#head1{
+    margin: 40px 40px 40px 40px;
+    
+}
+#head1>a:link{
+    color: #b100e8;
+    text-decoration: none;
+    margin-right: 40px;
+}
+#head1>a:visited{
+    color: #b100e8;
+    text-decoration: none;
+}
+#head1>a:hover{
+    color:#a4133c;
+    text-decoration: none;
+}
